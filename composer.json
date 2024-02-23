@@ -1,0 +1,37 @@
+{
+    "name": "skernl/composer",
+    "type": "library",
+    "keywords": [
+        "php",
+        "swoole",
+        "framework",
+        "skernl",
+        "composer proxy"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Skernl\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wheakerd",
+            "email": "wheakerd@qq.com"
+        },
+        {
+            "name": "wheakerd",
+            "email": "wheakerd@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.3",
+        "skernl/contract": "dev-main"
+    },
+    "extra": {
+        "skernl": {
+            "config": "Skernl\\Config\\ProviderConfig"
+        }
+    }
+}
